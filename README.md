@@ -31,17 +31,7 @@ CAD 파일을 서버에서 변환하고 웹 브라우저에서 도면을 표시�
 
 ## 4. 처리 구조
 
-CAD 파일
-   ↓
-Backend
-   ↓
-Aspose.CAD
-   ↓
-SVG 변환
-   ↓
-Browser
-   ↓
-CAD Viewer
+CAD 파일 -> Backend -> Aspose.CAD -> SVG 변환 -> Browser -> CAD Viewer
 
 ## 5. 개발 내용
 
