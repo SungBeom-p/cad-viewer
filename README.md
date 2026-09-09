@@ -1,7 +1,9 @@
-<<<<<<< HEAD
+
 # CadViewerControl
 
 Spring Boot 기반의 단독 CAD 미리보기 프로젝트입니다.
+aspose cad 라이브러리를 통해 cad파일을 svg파일로 변환후 이를 브라우저에서 확인 및 면적, 거리를 측정.
+
 
 ## 기능
 
@@ -11,22 +13,6 @@ Spring Boot 기반의 단독 CAD 미리보기 프로젝트입니다.
 - 파일 변경 시 새 파일 기준으로 미리보기 교체
 - 간단한 이동, 확대/축소, 거리, 면적 측정
 
-## 실행
-
-```bash
-mvn spring-boot:run
-```
-
-브라우저에서 `http://localhost:8080`으로 접속합니다.
-
-## 패키징
-
-```bash
-mvn clean package
-```
-
-WAR 파일은 `target/cad-viewer-control-1.0.0.war`에 생성됩니다.
-=======
 # cad-viewer
 CAD 도면을 웹 브라우저에서 미리보기하기 위한 CAD Viewer 프로젝트
 
@@ -89,4 +75,4 @@ CAD 데이터를 SVG 형태로 변환하여 브라우저에서 표시하는 방�
 ### Aspose.CAD
 
 Java 서버에서 CAD 파일을 처리하고 렌더링/변환하는 용도로 사용하였다.
->>>>>>> e10d7047ef6271b03f3a2723983555e7d11be44e
+
