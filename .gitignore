@@ -20,4 +20,5 @@ Thumbs.db
 *.dxf
 *.tmp
 
+tasks/
 src/main/resources/aspose-cad/*.lic
