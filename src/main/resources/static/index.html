@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CadViewerControl</title>
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+<main class="shell">
+    <section class="toolbar" aria-label="CAD 파일 선택">
+        <div class="brand">
+            <h1>CadViewerControl</h1>
+            <p>DWG/DXF 파일을 선택하면 아래에 바로 미리보기가 표시됩니다.</p>
+        </div>
+        <label class="file-control">
+            <span>CAD 파일</span>
+            <input id="cadFileInput" type="file" accept=".dwg,.dxf">
+        </label>
+    </section>
+
+    <section class="viewer-panel" aria-label="CAD 미리보기">
+        <div class="viewer-tools">
+            <button type="button" class="tool-button" data-tool="pan">이동</button>
+            <button type="button" class="tool-button" data-tool="distance">거리</button>
+            <button type="button" class="tool-button" data-tool="area">면적</button>
+            <button type="button" class="tool-button" data-action="reset-view">화면맞춤</button>
+            <button type="button" class="tool-button" data-action="clear-measure">측정초기화</button>
+            <label class="unit-select">
+                결과 단위
+                <select id="unitSelect">
+                    <option value="m">m / m²</option>
+                    <option value="cm">cm / cm²</option>
+                    <option value="km">km / km²</option>
+                </select>
+            </label>
+        </div>
+        <div id="message" class="message">파일을 선택해주세요.</div>
+        <div id="preview" class="preview"></div>
+    </section>
+</main>
+<script src="/js/app.js"></script>
+</body>
+</html>

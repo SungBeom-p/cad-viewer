@@ -1,0 +1,23 @@
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+### IDE ###
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+
+### Upload/temp ###
+*.dwg
+*.dxf
+*.tmp
+
+src/main/resources/aspose-cad/*.lic
